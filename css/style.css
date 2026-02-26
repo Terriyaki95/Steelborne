@@ -65,8 +65,9 @@ nav.scrolled {
 }
 
 .nav-logo img {
-  height: 38px;
-  filter: brightness(1.1);
+  height: 48px;
+  width: auto;
+  object-fit: contain;
 }
 
 .nav-links {
@@ -150,6 +151,10 @@ nav.scrolled {
 
 .hero-logo {
   width: min(480px, 80vw);
+  height: min(220px, 36.7vw);
+  object-fit: cover;
+  object-position: center 90%;
+  display: block;
   margin: 0 auto 1.5rem;
   opacity: 0;
   animation: fadeUp 1s ease 0.5s forwards;
@@ -995,3 +1000,4 @@ footer {
 .lang-sep {
   color: var(--border);
 }
+
